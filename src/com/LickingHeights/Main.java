@@ -1,22 +1,20 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        //declare
+        Scanner keyboard;
+        keyboard = new Scanner(System.in);
 
         //Method 1
-        printGreetings();
-            System.out.println("User! How are you doing today?");
-        //Method 2
-        printReply();
-            System.out.println("");
+        printGreetings("World");
+            System.out.println("Hello " );
 
     }
     public static void printGreetings(String noun){
         System.out.println("Hello " + noun);
-    }
-    public static void printReply(String noun){
-        System.out.println("That's great! I am glad you are having a good day.");
     }
 }
