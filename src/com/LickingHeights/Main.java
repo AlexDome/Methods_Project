@@ -10,6 +10,8 @@ public class Main {
         keyboard = new Scanner(System.in);
 
         //initialize
+        String noun2;
+        noun2 = ("World");
         String userName;
         int firstNumber;
         int secondNumber;
@@ -35,26 +37,40 @@ public class Main {
         helloName("" + userName);
 
         //Method 3
-        System.out.println(firstNumber*secondNumber);
+        System.out.println(firstNumber * secondNumber);
 
         //Method 4
-        System.out.println(thirdNumber/fourthNumber);
+        System.out.println(thirdNumber / fourthNumber);
+
+        //Method 5
+
+        //Method 6
+        change("" + noun2);
     }
-    private static void printGreetings(String noun){
+
+    private static void printGreetings(String noun) {
         System.out.println("Hello " + noun);
     }
-    private static void helloName(String userName){
+
+    private static void helloName(String userName) {
         System.out.println("Hello " + userName);
     }
-    public static int multiply(int firstNumber, int secondNumber){
+
+    public static int multiply(int firstNumber, int secondNumber) {
         int answer = firstNumber * secondNumber;
         return answer;
     }
-    public static int divide(int thirdNumber, int fourthNumber){
+
+    public static int divide(int thirdNumber, int fourthNumber) {
         int answer2 = thirdNumber / fourthNumber;
         return answer2 * 2;
     }
-    public static int max(int firstNumber, int thirdNumber){
-        int answer3 = 
+
+    public static int max(int firstNumber, int thirdNumber) {
+        int answer
+    }
+
+    public static void change(String noun2) {
+        System.out.println(noun2 + " Hello");
     }
 }

@@ -17,14 +17,15 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/LickingHeights/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="517">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="e#494#495#0" expanded="true" />
                 <element signature="e#545#546#0" expanded="true" />
                 <element signature="e#445#446#0" expanded="true" />
                 <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
+                <element signature="e#1778#1779#0" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,14 +136,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/LickingHeights/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="517">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="e#494#495#0" expanded="true" />
             <element signature="e#545#546#0" expanded="true" />
             <element signature="e#445#446#0" expanded="true" />
             <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1778#1779#0" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
           </folding>
         </state>
       </provider>
