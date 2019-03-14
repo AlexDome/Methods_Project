@@ -38,7 +38,7 @@ public class Main {
         System.out.println(firstNumber*secondNumber);
 
         //Method 4
-        System.out.println(thirdNumber/secondNumber);
+        System.out.println(thirdNumber/fourthNumber);
     }
     private static void printGreetings(String noun){
         System.out.println("Hello " + noun);
@@ -53,5 +53,8 @@ public class Main {
     public static int divide(int thirdNumber, int fourthNumber){
         int answer2 = thirdNumber / fourthNumber;
         return answer2 * 2;
+    }
+    public static int max(int firstNumber, int thirdNumber){
+        int answer3 = 
     }
 }
