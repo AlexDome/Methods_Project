@@ -11,10 +11,22 @@ public class Main {
 
         //initialize
         String userName;
+        int firstNumber;
+        int secondNumber;
+        int thirdNumber;
+        int fourthNumber;
 
         //code
         System.out.println("What is your name?");
         userName = keyboard.nextLine();
+        System.out.println("Give me a number please");
+        firstNumber = keyboard.nextInt();
+        System.out.println("Another please");
+        secondNumber = keyboard.nextInt();
+        System.out.println("Can I have another number please");
+        thirdNumber = keyboard.nextInt();
+        System.out.println("One last number please");
+        fourthNumber = keyboard.nextInt();
 
         //Method 1
         printGreetings("World");
@@ -23,19 +35,15 @@ public class Main {
         helloName("" + userName);
 
         //Method 3
-        int a = 15;
-        int b = 17;
-        System.out.println(a*b);
+        System.out.println(firstNumber*secondNumber);
 
         //Method 4
-        int c = 1500;
-        int d = 5;
-        System.out.println(c/d);
+        System.out.println(thirdNumber/secondNumber);
     }
-    public static void printGreetings(String noun){
+    private static void printGreetings(String noun){
         System.out.println("Hello " + noun);
     }
-    public static void helloName(String userName){
+    private static void helloName(String userName){
         System.out.println("Hello " + userName);
     }
     public static int multiply(int firstNumber, int secondNumber){
