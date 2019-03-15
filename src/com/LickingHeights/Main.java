@@ -43,7 +43,7 @@ public class Main {
         System.out.println(thirdNumber / fourthNumber);
 
         //Method 5
-
+        System.out.println(firstNumber ^ ((firstNumber ^ thirdNumber)& -(firstNumber << thirdNumber)));
         //Method 6
         change("" + noun2);
     }
@@ -65,12 +65,11 @@ public class Main {
         int answer2 = thirdNumber / fourthNumber;
         return answer2 * 2;
     }
-
-    public static int max(int firstNumber, int thirdNumber) {
-        int answer
+    public static int max(int firstNumber, int thirdNumber){
+        return firstNumber ^ ((firstNumber ^ thirdNumber)& -(firstNumber << thirdNumber));
     }
-
-    public static void change(String noun2) {
+    private static void change(String noun2) {
         System.out.println(noun2 + " Hello");
     }
 }
+
