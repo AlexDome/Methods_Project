@@ -23,14 +23,14 @@ public class Main {
                 System.out.println("One last number please");
             fourthNumber = keyboard.nextInt();
         System.out.println("Thank you very much");
-        //Methods
+    //Methods
         //Method 1
         printGreetings("World");
         //Method 2
         helloName("" + userName);
         //Method 3
         System.out.println("Im going to multiply your First and Second Numbers");
-                System.out.println(firstNumber * secondNumber);
+            System.out.println(firstNumber * secondNumber);
         //Method 4
         System.out.println("Now im going to divide your Third and Fourth Numbers");
             System.out.println(thirdNumber / fourthNumber);
