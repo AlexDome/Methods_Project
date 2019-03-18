@@ -2,16 +2,16 @@ package com.LickingHeights;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        //declare
+    //declare
         Scanner keyboard;
             keyboard = new Scanner(System.in);
-        //initialize
+    //initialize
         String noun2;
             noun2 = ("World");
                 String userName;
                     int firstNumber, secondNumber,
                         thirdNumber, fourthNumber;
-        //code
+    //code
         System.out.println("What is your name?");
             userName = keyboard.nextLine();
                 System.out.println("Give me a number please");
@@ -23,7 +23,7 @@ public class Main {
                 System.out.println("One last number please");
             fourthNumber = keyboard.nextInt();
         System.out.println("Thank you very much");
-    //Methods
+    //Methods Print
         //Method 1
         printGreetings("World");
         //Method 2
@@ -39,6 +39,7 @@ public class Main {
             System.out.println(firstNumber ^ ((firstNumber ^ thirdNumber)& -(firstNumber << thirdNumber)));
         //Method 6
         change("" + noun2);
+    //Methods Code
     }
     private static void printGreetings(String noun) {
         System.out.println("Hello " + noun);
